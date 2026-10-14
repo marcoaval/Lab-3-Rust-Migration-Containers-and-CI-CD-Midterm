@@ -15,4 +15,6 @@ docker run --rm perfreport
 
 The original C++ source and Windows build script are in `cpp/`. The Rust application runs on Windows and Linux. Tests verify scoring thresholds and ratings.
 
+On Windows, run `cpp/build_cpp.bat` to compile the original application, then run `cpp/perfreport.exe` to display its report.
+
 GitHub Actions checks formatting, builds, and tests on pushes to main and pull requests. The Docker image builds and runs after the Rust checks pass.
