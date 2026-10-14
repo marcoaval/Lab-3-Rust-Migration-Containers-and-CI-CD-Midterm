@@ -1,0 +1,12 @@
+[package]
+name = "perfreport"
+version = "0.1.0"
+edition = "2021"
+
+# sysinfo provides system measurements across operating systems.
+[dependencies]
+sysinfo = "0.33"
+
+[[bin]]
+name = "perfreport"
+path = "src/main.rs"
